@@ -15,7 +15,7 @@ import Review from "./Review";
 
 function ClientsReviews() {
   return (
-    <div className="pt-10 pb-20">
+    <div className="pt-4 mx-10 pb-2">
       <>
         <h1 className="text-red-600 text-4xl text-center font-bold pb-10 ">
           Clients Review

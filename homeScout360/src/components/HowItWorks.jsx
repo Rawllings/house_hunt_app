@@ -5,7 +5,7 @@ import { MdPhoneCallback } from "react-icons/md";
 
 function HowItWorks() {
   return (
-    <div className=" mb-5 pt-20 pb-10">
+    <div className=" mb-5 pt-0 pb-10">
       <div className="text-center pt-10 pb-10">
         <h1 className="text-4xl text-red-600 font-bold pt-5 pb-3">
           How it works

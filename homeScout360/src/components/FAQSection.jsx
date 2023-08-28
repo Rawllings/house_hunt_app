@@ -77,15 +77,15 @@ const FAQSection = () => {
           <div
             className={`faq-question ${
               activeIndex === index ? "active" : ""
-            } text-xl font-bold`}
+            }  font-bold`}
             onClick={() => toggleAccordion(index)}
           >
             {faq.question}
           </div>
           {activeIndex === index && (
-            <div className="faq-answer text-xl pt-4">{faq.answer}</div>
+            <div className="faq-answer text-sm pt-4">{faq.answer}</div>
           )}
-          <div className="pt-10">
+          <div className="pt-4">
             <hr />
           </div>
         </div>

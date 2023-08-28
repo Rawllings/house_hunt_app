@@ -9,9 +9,10 @@ import HappyClients from "./components/HappyClients";
 import PopularHomes from "./components/PopularHomes";
 import HowItWorks from "./components/HowItWorks";
 import ClientsReviews from "./components/ClientsReviews";
-import ReviewForm from "./components/ReviewForm";
+// import ReviewForm from "./components/ReviewForm";
 import ShareHouse from "./components/ShareHouse";
 import FAQSection from "./components/FAQSection";
+import RealEstates from "./components/RealEstates";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -24,8 +25,9 @@ function App() {
       <PopularHomes />
       <HowItWorks />
       <ClientsReviews />
-      <ReviewForm />
+      {/* <ReviewForm /> */}
       <ShareHouse />
+      <RealEstates />
       <FAQSection />
       <Footer />
     </div>
